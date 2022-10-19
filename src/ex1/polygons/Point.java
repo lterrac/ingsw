@@ -2,6 +2,7 @@ package ex1.polygons;
 
 public class Point {
     private final float x;
+
     private final float y;
 
     public Point() {

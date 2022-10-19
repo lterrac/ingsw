@@ -3,7 +3,6 @@ package ex1.set;
 public class TestDrive {
     public static void main(String[] args) {
         Set s = new Set(2);
-
         System.out.println(s);
         s.add(1);
         System.out.println(s);
