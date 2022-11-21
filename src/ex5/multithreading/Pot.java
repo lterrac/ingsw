@@ -20,6 +20,7 @@ public class Pot {
 
         notifyAll();
 
+
     }
 
     public synchronized void fill(){
@@ -34,7 +35,9 @@ public class Pot {
         System.out.println("Chef refilled the pot");
 
         parts = P;
+
         notifyAll();
+
     }
 
     public static void main(String[] args){
